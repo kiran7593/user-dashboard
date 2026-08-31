@@ -24,7 +24,7 @@ function App() {
       return
     }
 
-    fetch('http://localhost:5000/api/me', {
+    fetch('https://kiran-user-dashboard-api.onrender.com/api/me', {
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -52,7 +52,7 @@ function App() {
     setError('')
 
     try {
-      const response = await fetch('http://localhost:5000/api/login', {
+      const response = await fetch('https://kiran-user-dashboard-api.onrender.com/api/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -86,7 +86,7 @@ function App() {
     setError('')
 
     try {
-      const response = await fetch('http://localhost:5000/api/register', {
+      const response = await fetch('https://kiran-user-dashboard-api.onrender.com/api/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
