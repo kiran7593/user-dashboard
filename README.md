@@ -1,5 +1,7 @@
 # User Dashboard
 
+![User Dashboard Screenshot](./user-dashboard.png)
+
 A React and TypeScript user dashboard application with profile management and logout functionality.
 
 ## Features
