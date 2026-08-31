@@ -1,5 +1,7 @@
 # User Dashboard
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20App-blue)](https://user-dashboard-q75zt7ail-kiran-265d.vercel.app/)
+
 ![User Dashboard Screenshot](./user-dashboard.png)
 
 A React and TypeScript user dashboard application with profile management and logout functionality.
